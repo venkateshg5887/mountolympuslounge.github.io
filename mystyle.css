@@ -1,13 +1,12 @@
 body {
     background: url("images/bg.png") no-repeat fixed bottom;
-    text-align: center;
     margin: 0; /* Add this to remove default body margin */
     padding: 0; /* Add this to remove default body padding */
     font-family: Roboto, "Helvetica Neue", "Arial Nova", sans-serif;
 }
 
 .main_block {
-    max-width: 1440px; /* Change width to max-width for responsiveness */
+    max-width: 1280px; /* Change width to max-width for responsiveness */
     margin: auto;
     padding-bottom: 100px; /* Add padding to create space for the social media section at the bottom */
     position: relative; /* Add position relative for absolute positioning of social media section */
@@ -25,6 +24,7 @@ body {
     margin: 30px auto 0;
     font-size: 50px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .slash_info {
